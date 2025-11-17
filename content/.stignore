@@ -1,0 +1,8 @@
+_*/
+tmp/
+**/.git/
+**/.idea/
+**/.obsidian/plugins/
+**/.obsidian/community-plugins.json
+**/._* (?d)
+**/.DS_Store
