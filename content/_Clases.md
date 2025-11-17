@@ -53,7 +53,7 @@ Tel: 2066-1958 (int. 870)
 # 2025-10-28 clase3
 
 - [x] resumir 
-- [ ] Revisar [[.Clases.d/ICC25-Holik-Clase3-Resumen|Resumen]]
+- [ ] Revisar [[_Clases.d/ICC25-Holik-Clase3-Resumen|Resumen]]
 
 ## tareas para próxima clase
 
@@ -62,7 +62,7 @@ Tel: 2066-1958 (int. 870)
 
 - [x]  ausente
 - [x] resumir 
-- [ ] Revisar [[.Clases.d/ICC25-Holik-Clase4-Resumen|Resumen]]
+- [ ] Revisar [[_Clases.d/ICC25-Holik-Clase4-Resumen|Resumen]]
 
 
 ## tareas para próxima clase
@@ -74,7 +74,7 @@ Tel: 2066-1958 (int. 870)
 
 - [x]  ausente
 - [x] resumir 
-- [ ] Revisar [[.Clases.d/ICC25-Holik-Clase5-Resumen|Resumen]]
+- [ ] Revisar [[_Clases.d/ICC25-Holik-Clase5-Resumen|Resumen]]
 
 
 ## tareas para próxima clase
