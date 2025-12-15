@@ -5,7 +5,7 @@ paginate: true
 backgroundColor:
 backgroundImage: url('./entornosPython.svg')
 ---
-
+ww
 # Entorno Python para ICC25
 
 - QC: **simulación** vs compu física
@@ -35,11 +35,14 @@ empate: colaboración
 
 ##  entorno local: sistema vs **venv**
 
-sin dudas: entorno virtual por:
- - Distribución de SO  ⚠️
-- Lenguaje interpretado ( 🔋 incluídas)
-- Portable y a medida 👍
-- en gColab se regenera en cada servidor  👎 
+sin dudas... entorno virtual!
+
+- Ventajas:
+	- Lenguaje interpretado ( 🔋 incluidas)
+	- Portable y a medida 
+- ⚠️Precauciones⚠️
+	- Evitamos toquetear la distribución de SO  
+	- gColab lo **reconstruye de cero** en cada sesión  
 
 ---
 ### simulación: cuadernos  Jupyter
@@ -105,20 +108,19 @@ https://jupyter.org/try-jupyter/lab/
 
 ---
 
-## Anaconda: instalación M$ Windows
+## Anaconda: instalación MS Windows
 
 https://www.datacamp.com/es/tutorial/installing-anaconda-windows
 
 ---
 
-## Anaconda: instalación Linux/MacO$
+## Anaconda: instalación Linux/MacOS
 
 ➡️ "siga, siga" ➡️
 
-## instalacion
 
-- instalar Conda  (distribución privativa de Python)
-- crear entorno ICC25:
+- instalar [Conda ](https://www.anaconda.com) (distribución privativa de Python, registración obligatoria)
+- crear entorno `ICC25`:
 
 ```sh
 cd _Jupyter # desde la bóveda de Obsidian
@@ -133,14 +135,37 @@ conda activate ICC25
 
 ---
 
-## Anaconda: instalación Linux/MacO$
+## Anaconda: instalación Linux/MacOS
 
 - ejecutar `jupyter lab` y abrir un cuaderno
 ```sh
 cd # a la bóveda de Obsidian
 conda activate ICC25 # nuevo prompt: (ICC25) ➜  ICC25-Holik git:(main) ✗
-jupyter-lab # abre navegador
+jupyter lab # abre navegador
 ```
+
+
+---
+
+## Anaconda: actualización Linux/MacOS
+
+- eventualmente, necesitaremos actualizar el entorno
+
+```sh
+cd # a la bóveda de Obsidian
+conda activate ICC25 # cambia el  prompt
+conda env update --file _Jupyter/ICC25.yml
+```
+
+>[!read] documentado en https://docs.conda.io/projects/conda/en/stable/commands/env/update.html
+
+opción:
+
+```sh
+conda activate ICC25 # cambia el  prompt
+conda update --all
+```
+>[!read] documentado en https://docs.conda.io/projects/conda/en/stable/commands/update.html#
 
 
 ---

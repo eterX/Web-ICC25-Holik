@@ -31,8 +31,10 @@ __Régimen de cursada__
 	- [Campus 2025 UNaHur](https://campus2025.unahur.edu.ar/course/view.php?id=2095) (moodle id: ICC2025)
 	- [gDrive](https://drive.google.com/drive/folders/1fpyi9ThT0FRvJgsfCIdDL-WJNN381jlK)
 - Evaluaciones:
-	- 
-
+	- **Martes 2 de Diciembre de 11 a 13hs** (dos horas de examen; de 10 a 11 vamos a seguir viendo teórica).
+	- **Recuperatorio: Martes 9 de Diciembre de 11 a 13hs** (dos horas de examen; de 10 a 11 vamos a seguir viendo teórica).
+- Clase final y Certificados: **Martes 16 de Diciembre**, presencial en la Unahur, en el marco de un acto especial. En esa misma clase entregaremos los certificados.
+![[evaluaciones.png]]
 ## tareas abiertas
 
 ```query
@@ -51,7 +53,7 @@ Los miembros del curso pueden:
 	- en el *render* web del repo, una especie de wiki, en:
 	- clonando el repo, y abriéndolo off-line con cualquier editor de texto (aunque es recomandable el uso de [Obsidian.md](Obsidian.md))
 	
-
+Sobre el navegador de Obsidian)
 ### archivo README (éste archivo)
 
 Es a la vez la presentación del repositorio, y punto de entrada en Obsidian. 

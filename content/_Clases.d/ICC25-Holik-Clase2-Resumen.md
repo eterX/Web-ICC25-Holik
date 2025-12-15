@@ -9,6 +9,7 @@
 
 ---
 
+>[!tip] ver la [[Holik_Unahur_Curso_02_2025.pdf|presentación en PDF]] de la clase
 ## Resumen Ejecutivo
 
 La segunda clase del curso constituye una introducción fundamental al formalismo matemático de la mecánica cuántica, con énfasis particular en la teoría de espacios vectoriales complejos. Se inició la sesión motivando la necesidad del álgebra lineal mediante el experimento de la doble rendija, ilustrando el comportamiento contraintuitivo de los sistemas cuánticos y la emergencia de patrones de interferencia. Posteriormente, se desarrolló sistemáticamente la teoría de espacios vectoriales, comenzando con espacios reales (ℝⁿ) para luego extender los conceptos a espacios complejos (ℂⁿ), que constituyen el marco matemático apropiado para la descripción de estados cuánticos.
@@ -218,7 +219,9 @@ Un conjunto B = {v₁, v₂, ..., vₙ} es una base de V si:
   - Ejercicios 2.7-2.10
 - **Wong:** 
   - Sección 2.4 "Basis and Dimension" (págs. 31-38)
-  - Ejemplos trabajados 2.4.1-2.4.3
+  - Ejemplos trabajados 
+  - 
+  - 2.4.1-2.4.3
 
 ### 8. Probabilidad en Física Cuántica
 
@@ -265,16 +268,25 @@ P(A) = lim(N→∞) [#(A ocurre) / N]
 - Comportamiento probabilístico intrínseco
 
 **Representación de Estados:**
+
+Ejemplo: Experimento de la doble rendija:
 - Estado "rendija izquierda": |L⟩ = (1, 0)
 - Estado "rendija derecha": |R⟩ = (0, 1)
+
+![](doble_rendija_clasico.png)
+
+
 - Superposición: |ψ⟩ = α|L⟩ + β|R⟩ = (α, β)
 - Los coeficientes α, β están relacionados con probabilidades
+![](doble_rendija_ondulatorio.png)
+
 
 **Evolución Temporal:**
 La evolución viene dada por operadores lineales (matrices):
-```
 |ψ(t)⟩ = U(t)|ψ(0)⟩ = e^(-iHt/ℏ)|ψ(0)⟩
-```
+$$\ket{\psi(t)} = U(t)\ket{\psi(0)} = e^{-(iHt/ℏ)\ket{\psi(0)}}$$
+
+
 donde H es el hamiltoniano del sistema.
 
 **Referencias bibliográficas:**
@@ -380,7 +392,7 @@ mindmap
       Ecuación de Schrödinger
         iℏ∂|ψ⟩/∂t = H|ψ⟩
       Operadores unitarios
-        U(t) = e^(-iHt/ℏ)
+        Ut = e elevado a la -iHt/ℏ
       Hamiltoniano
         Operador energía
     Probabilidad Cuántica
@@ -390,6 +402,7 @@ mindmap
       Interferencia cuántica
       Carácter intrínseco
 ```
+
 
 ### Computación Cuántica
 
@@ -416,8 +429,6 @@ mindmap
       Notación ket |ψ⟩
       Coeficientes complejos
       Interpretación probabilística
-        P(0) = |α|²
-        P(1) = |β|²
     Operaciones
       Compuertas cuánticas
       Matrices unitarias
